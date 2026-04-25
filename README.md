@@ -14,3 +14,9 @@
 ```text
 客户端 → 原生 IPv6（2001:xxxx） → 服务器（入站）
 服务器 → WARP（IPv4） → 外网（出站）
+
+# 运行命令
+```text
+bash <(curl -fsSL https://raw.githubusercontent.com/SS7D/install-warp-ipv4-only/main/install-warp.sh)
+镜像：
+bash <(curl -fsSL https://hub.glowp.xyz/raw.githubusercontent.com/SS7D/install-warp-ipv4-only/main/install-warp.sh)
